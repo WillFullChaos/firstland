@@ -1,5 +1,5 @@
 *{
-    border: solid 4px;
+    
     text-align: center;
 }
 
@@ -7,9 +7,13 @@ body{
     display: flex;
     flex:1;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
     
-    
-    
+}
+
+button{
+    border-radius: 10%;
 }
 
 .hero, footer{
@@ -18,23 +22,51 @@ body{
     font-size: 18px;
 }
 
+
 .nav{
-    border: solid red;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 ul{
     display: flex;
     list-style: none;
+    gap: 8px;
 }
 
 .welcome{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+img{
+    border: solid lightblue;
+    border-radius: 10%;
+}
+
+
+.infoheader{
+    padding-top: 40px;
+}
+
+.gallery{
+    display: flex;
+    gap: 16px;
+    padding: 40px;
+    
 }
 
 .maintext{
@@ -61,13 +93,52 @@ button, .action{
 
 .quote{
     background-color: #e5e7eb;
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
-    color:#1f2937
+    color:#1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    padding: 40px;
+    gap: 12px;
 }
 
 .author{
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.action{
+    border: solid white 30px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.signtext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer{
+    padding: 20px;
+}
+
+.secondbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px 12px;
+    height: 40px;
+    border: solid white;
 }
