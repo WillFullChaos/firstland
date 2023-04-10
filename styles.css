@@ -20,6 +20,7 @@ button{
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    height: 500px;
 }
 
 
@@ -46,7 +47,7 @@ ul{
 .welcome{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 40px;
     gap: 20px;
@@ -78,9 +79,11 @@ img{
 
 .gallery{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
     padding: 40px;
-    
+    height: 200px;
 }
 
 .maintext{
@@ -105,6 +108,12 @@ button, .action{
     color: white;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quote{
     background-color: #e5e7eb;
     font-size: 24px;
@@ -116,6 +125,8 @@ button, .action{
     justify-content: center;
     padding: 40px;
     gap: 12px;
+    width: 100%;
+    height: 100px;
 }
 
 .author{
@@ -135,6 +146,9 @@ button, .action{
     justify-content: center;
     align-items: center;
     gap: 200px;
+    width: 50%;
+    height: 100px;
+    
 }
 
 .signtext{
@@ -145,6 +159,7 @@ button, .action{
 
 footer{
     padding: 20px;
+    height: auto;
 }
 
 .secondbutton{
@@ -156,3 +171,4 @@ footer{
     height: 40px;
     border: solid white;
 }
+
